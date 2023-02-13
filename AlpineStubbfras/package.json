@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "babel-eslint": "^8.2.6"
+  },
+  "dependencies": {
+    "-": "^0.0.1",
+    "eslint": "^4.19.1",
+    "g": "^2.0.1",
+    "react-icons": "^4.7.1",
+    "react-router-dom": "^5.3.4",
+    "styled-components": "^5.3.6"
+  }
+}

@@ -1,0 +1,29 @@
+.tabel {
+    width: 100%;
+    height: 28vh;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+  }
+    
+  table {
+    border: 3px solid black;
+    width: 230px;
+    height: 100px;
+  }
+    
+  th {
+    border-bottom: 0px solid black;
+  }
+    
+  td {
+    text-align: left;
+  }
+
+  bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  
