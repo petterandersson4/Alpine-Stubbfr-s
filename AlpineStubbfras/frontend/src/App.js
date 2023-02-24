@@ -17,20 +17,20 @@ import Stubbfras from "./components/Stubbfras/Stubbfras";
 import Kontakt from "./components/Kontakt/Kontakt";
 
 
-function App ()  {
+const App = () =>  {
 	return (
-		<div className="App">
+		<React.Fragment>
 			<Navbar/>
 			<Router>
       <Switch>
           <Route exact path = "/" component = { Startsida  }  /> 
-          <Route path = "/Stubbfras" component = { Stubbfras  } />
-          <Route path = "/Frashjul" component = { Frashjul  } />
-          <Route path = "/Kontakt" component = { Kontakt  } />
+          <Route exact path = "/stubbfras" component = { Stubbfras  } />
+          <Route exact path = "/frashjul" component = { Frashjul  } />
+          <Route exact path = "/kontakt" component = { Kontakt  } />
         </Switch>
         </Router>
         <Footer />
-    </div>
+    </React.Fragment>
 	);
 }
 

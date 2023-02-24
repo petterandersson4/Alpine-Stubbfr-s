@@ -14,9 +14,9 @@ function Navbar() {
 			<nav ref={navRef} className="row justify-content-right mt-0 p-2" >
 				<h3><a style = {{color: "red"}}href="/"><b style = {{color: "#00AA81"}}>Alpine</b> Stubbfräs</a></h3>
 				<h5><a href="/">Startsida</a></h5>
-				<h5><a href="/Stubbfras">Stubbfräs</a></h5>
-				<h5><a href="/Frashjul">Fräshjul</a></h5>
-				<h5><a href="/Kontakt">Kontakt</a></h5>
+				<h5><a href="/stubbfras">Stubbfräs</a></h5>
+				<h5><a href="/frashjul">Fräshjul</a></h5>
+				<h5><a href="/kontakt">Kontakt</a></h5>
 				
 				<button
 					className="nav-btn nav-close-btn"
